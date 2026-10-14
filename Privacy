@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Rclone Personal Drive Mount</title>
+  <style>
+    body {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #24292f;
+    }
+    h1, h2 { color: #0969da; }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: October 14, 2026</p>
+
+  <p>
+    This policy describes how the personal Rclone Personal Drive Mount
+    setup accesses and handles Google Drive data.
+  </p>
+
+  <h2>Purpose and use of data</h2>
+  <p>
+    The owner uses rclone to access their Google Drive files from a
+    privately managed home server. Google Drive access is used for
+    personal file management and media-library access.
+  </p>
+
+  <h2>Google account authorization</h2>
+  <p>
+    Rclone uses Google's OAuth authorization mechanism to obtain
+    permission to access the owner's Google Drive account.
+    OAuth credentials and tokens are managed by rclone and stored
+    in its local configuration on the owner's server.
+    This website does not receive or store those credentials.
+  </p>
+
+  <h2>Storage and sharing</h2>
+  <p>
+    Files accessed through rclone may be cached on the owner's server,
+    according to the owner's local configuration. Rclone communicates
+    with Google services to perform the requested file operations.
+    This website does not operate a backend that collects, processes,
+    or shares Google Drive files.
+  </p>
+
+  <h2>Website data and cookies</h2>
+  <p>
+    This static website does not intentionally collect personal
+    information, run analytics, or set tracking cookies. GitHub,
+    as the website hosting provider, may process technical information
+    associated with serving web pages under its own privacy practices.
+  </p>
+
+  <h2>Third-party services</h2>
+  <p>
+    Google Drive and GitHub are third-party services subject to their
+    respective terms and privacy policies. Data sent to Google through
+    rclone is handled under Google's applicable policies.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For questions about this personal project, use the developer
+    contact information shown on the Google OAuth consent screen.
+  </p>
+
+  <p><a href="./">Back to homepage</a></p>
+</body>
+</html>
